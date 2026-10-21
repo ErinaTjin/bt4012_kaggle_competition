@@ -1,0 +1,23 @@
+# Python 3.13 (the kernel both notebooks were run with: 3.13.1).
+# Minimum versions below are the first releases that support Python 3.13. For an exact, reproducible
+# environment, replace this file with the output of `pip freeze` from the environment the notebooks were run in.
+
+# --- core: notebooks 01 (EDA) and 02 (feature engineering and modelling) ---
+numpy>=2.1
+pandas>=2.2.3
+scipy>=1.14.1
+scikit-learn>=1.5.2
+networkx>=3.4
+matplotlib>=3.9.2
+seaborn>=0.13.2
+lightgbm>=4.6.0
+xgboost>=2.1.0
+
+# --- graph neural networks: only used in notebook 02, section 10.6 (GCN / GraphSAGE experiments) ---
+# torch 2.6 is the first release with Python 3.13 wheels on Windows. A CPU-only build is enough.
+torch>=2.6.0
+torch_geometric>=2.6.1
+
+# --- running the notebooks ---
+notebook>=7.2
+ipykernel>=6.29

@@ -42,8 +42,13 @@ bt4012_kaggle_competition/
 ├── data/                           # competition files (see above)
 └── notebooks/
     ├── 01_setup_and_eda.ipynb
-    ├── e1156396.ipynb # the whole project, sections 1-11
-    └── outputs/                    # written by the notebook
+    ├── 02_feature_engineering_and_modelling_OLD.ipynb      # older version of the main notebook
+    ├── e1156396.ipynb                                      # main notebook, the whole project, sections 1-11
+    ├── submissions/
+    |    ├── submission_note.txt                             # note on files submitted
+    |    ├── sub2_A_smote4.csv
+    |    └── sub5_smote_x4.csv
+    └── outputs/                                            # written by the notebook
         ├── sub1_AF_lgbm10.csv
         ├── sub2_A_smote4.csv
         ├── submission_log.csv      

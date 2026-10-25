@@ -1,0 +1,3 @@
+These are the 2 files for final submission.
+sub2_A_smote4.csv: produced with the main notebook "e1156396.ipynb".
+sub5_5_smote_x4.csv: produced with an earlier version of the main notebook (that has slightly different settings and validation methods) "02_feature_engineering_and_modelling_OLD.ipynb"; note that the older notebook has not been organized and cleaned as well as the main notebook.
